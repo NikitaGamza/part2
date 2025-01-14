@@ -1,0 +1,39 @@
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.root {
+  width: 100vw;
+  height: 100vh;
+  background-color: #222;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.head {
+  color: #fff;
+  font-size: 7vw;
+  background: url('video.gif');
+  background-size: cover;
+  font-family: 'Arial', sans-serif;
+  -webkit-background-clip: text;
+}
+
+.head__span {
+  margin-right: 5px;
+  display: inline-block;
+  letter-spacing: -58px;
+  -webkit-text-fill-color: transparent;
+  background: rgba(0, 0, 0, 0.1);
+}
+/*# sourceMappingURL=style.css.map */
